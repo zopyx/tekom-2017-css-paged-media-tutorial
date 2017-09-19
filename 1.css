@@ -1,0 +1,31 @@
+body {
+    font-family: Arial,Sans-Serif;
+}
+
+p {
+    text-align: justify;
+    hyphens: auto;
+} 
+
+img {
+    width: 80%;
+}
+
+h1, h2 {
+    page-break-before: always
+}
+
+h1 {
+    color: blue;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: red;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: pink;
+}

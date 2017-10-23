@@ -1,5 +1,6 @@
 body {
-    font-family: Arial,Sans-Serif;
+    font-family: "Noto Sans";
+    font-size: 10pt;
 }
 
 p {
@@ -7,8 +8,14 @@ p {
     hyphens: auto;
 } 
 
-img {
+figure object,
+figure img,
+figure, img {
     width: 80%;
+}
+
+figure {
+    page-break-inside: avoid;
 }
 
 h1, h2 {

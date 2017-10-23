@@ -1,0 +1,19 @@
+table {
+    border: 1pt solid #bbb;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 1pt solid #bbb;
+}
+
+th, td {
+    border: 1pt solid #bbb;
+}
+
+td p {
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em; 
+}

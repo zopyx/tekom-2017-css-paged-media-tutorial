@@ -1,0 +1,28 @@
+h2 span.section-title {
+    position: running(header2);    
+}
+
+h3 span.section-title {
+    position: running(header3);    
+}
+
+@page :left {
+
+    @top-left {
+        content: element(header2);
+    }
+    @top-right {
+        content: element(header3);
+    }
+}
+
+@page :right{
+    @top-left {
+        content: element(header3);
+    }
+
+
+    @top-right {
+        content: element(header2);
+    }
+}

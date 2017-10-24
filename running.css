@@ -21,7 +21,6 @@ h3 span.section-title {
         content: element(header3);
     }
 
-
     @top-right {
         content: element(header2);
     }
